@@ -1,6 +1,6 @@
 # Notile
 
-An Android music player with a liquid-glass look. It plays the music stored on your phone: offline, no accounts, no ads. Available in English and Russian (follows the system language).
+An Android music player with a liquid-glass look. It plays the music stored on your phone: offline, no accounts, no ads.
 
 <p align="center">
   <img src="docs/screenshots/listen.jpg" width="23%" alt="Listen screen">
