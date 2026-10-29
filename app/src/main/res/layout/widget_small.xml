@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/root" android:layout_width="match_parent" android:layout_height="match_parent" android:background="@drawable/w_bg" android:clipToOutline="true" android:gravity="center_vertical" android:orientation="horizontal" android:padding="10dp">
+    <ImageView android:id="@+id/art" android:layout_width="50dp" android:layout_height="50dp" android:background="@drawable/w_art" android:clipToOutline="true" android:scaleType="centerCrop" android:src="@drawable/ic_w_music" />
+    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginHorizontal="12dp" android:layout_weight="1" android:orientation="vertical">
+        <TextView android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:ellipsize="end" android:text="Notile" android:textColor="#FFFFFFFF" android:textSize="14sp" android:textStyle="bold" />
+            <TextView android:id="@+id/artist" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:ellipsize="end" android:text="@string/widget_idle" android:textColor="#B3FFFFFF" android:textSize="12sp" />
+    </LinearLayout>
+    <ImageView android:id="@+id/play" android:layout_width="38dp" android:layout_height="38dp" android:background="@drawable/w_btn_play" android:padding="8dp" android:scaleType="fitCenter" android:src="@drawable/ic_w_play" android:contentDescription="@string/play" />
+    <FrameLayout android:layout_width="8dp" android:layout_height="1dp" />
+    <ImageView android:id="@+id/next" android:layout_width="38dp" android:layout_height="38dp" android:background="@drawable/w_btn" android:padding="8dp" android:scaleType="fitCenter" android:src="@drawable/ic_w_next" android:contentDescription="@string/next" />
+</LinearLayout>
